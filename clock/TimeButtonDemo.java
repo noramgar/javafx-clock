@@ -7,7 +7,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
 
 import javafx.animation.Timeline;
 import javafx.animation.KeyFrame;
@@ -17,17 +16,13 @@ import javafx.util.Duration;
 
 import java.util.Calendar;
 import javafx.scene.control.Label;
-
-import java.text.DateFormat;
+import java.util.Date;
 import java.text.SimpleDateFormat;
-import javafx.scene.input.KeyCode;
 
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
-
-import java.util.Date;
 import javafx.scene.text.Text;
-import javafx.scene.layout.*;
+
 
 public class TimeButtonDemo extends Application {
 
